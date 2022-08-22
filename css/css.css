@@ -109,10 +109,6 @@ header ul::before{
 header .sec-con:hover ul{
     display: block;
 }
-.features .feature:hover{
-    background-color: white;
-    box-shadow: 8px 10px 10px -1px grey;
-}
 .feature{
     transition: all 0.5s;
     border-radius: 10%;
@@ -189,7 +185,7 @@ header .sec-con:hover ul{
 }
 .main-head h1:before{
     content: "Don't be busy, be productive";
-    font-size: 25px;
+    font-size: 22px;
     font-weight: normal;
     color: #777;
     bottom: 10px;
@@ -254,48 +250,6 @@ header .sec-con:hover ul{
         margin-bottom: 10px;
     }
 }
-/* .porjects{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 20px;
-}
-.porjects > div{
-    background-color: white;
-    width: 350px;
-}
-.porjects > div h3{
-    text-transform:capitalize ;
-    line-height: normal;
-}
-.porjects > div h3,
-.porjects > div p{
-    padding-left:20px;
-    line-height:1.8;
-}
-.porjects > div p{
-    color: #777777;
-}
-.porjects > div img{
-    width: 100%;
-}
-.portfolio{
-    background-color: #f6f6f6;
-}
-@media (max-width:1200px){
-    .porjects > div{
-        width:calc((100% - 50px) / 2 ) ;
-    }
-
-}
-@media (max-width:768px){
-    .porjects > div{
-        width:100% ;
-    }
-} */
 .portfolio{
     background-color: #f6f6f6;
 }
