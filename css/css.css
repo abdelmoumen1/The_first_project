@@ -183,15 +183,19 @@ header .sec-con:hover ul{
         font-size: 80px;
     }
 }
-.main-head h1:before{
-    content: "Don't be busy, be productive";
+.main-head h1+p{
     font-size: 22px;
     font-weight: normal;
     color: #777;
-    bottom: 10px;
+    bottom: 126px;
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
+}
+@media (max-width: 768px){
+    .main-head h1+p{
+        bottom: 106px;
+    }
 }
 .services {
     padding-bottom: 60px;
